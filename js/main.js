@@ -1,10 +1,24 @@
-'use strict'
+// 'use strict'
 
-import {getBuscarFilme, getListarFilmes} from "./filmes.js"
+// import {getBuscarFilme, getListarFilmes, putFilme, deleteFilme, postFilme} from "./filme/filmes.js"
 
-function telaFilme (filme){
-    const container = document.getElementById('container')
-    const telaFilme = document.createElement('div')
-    telaFilme.classList.add('tela-filme')
-    telaFilme
-}
+// function carregarCard(){
+// const img = document.createElement('img')
+//     img.src = filme.imagem
+//     telaFilme.appendChild(img)
+
+//     const h2 = document.createElement('h2')
+//     h2.textContent = filme.nome
+//     telaFilme.appendChild(h2)
+
+//     container.appendChild(carregarCard)
+// }
+
+// async function mostrarFilmes() {
+//     const cardFilme = await getListarFilmes()
+//     console.log('Filmes recebidos:', cardFilme)
+
+//     cardFilme.forEach(filme => carregarCard(filme))
+// }
+
+// mostrarFilmes()
